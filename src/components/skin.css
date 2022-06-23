@@ -1,0 +1,85 @@
+.tipbod{
+  background-color: #e7530b;
+  height: 100vh;
+}
+
+.headtip{
+  padding: 20px;
+  font-weight: bold;
+  font-size: 72.88px;
+  font-family: HelveticaNowText;
+  padding-bottom: 10px;
+  color: rgb(255,255,255);
+  text-align: center;
+}
+
+.subhead{
+  padding: 10px;
+  color: rgb(255,255,255);
+  font-size: 22px;
+  text-align: left;
+  font-weight: bold;
+  font-family: 'Helvetica Now Display';
+  padding-bottom: 20px;
+  text-align: center;
+}
+
+.formrow{
+  width: 100%;
+  margin: 0px;
+}
+
+.outercard{
+  border-radius: 18px;
+  color: #000000;
+  background: var(--bs-body-bg);
+}
+
+.innercard{
+  border-radius: 18px;
+}
+
+.formtip{
+  width: 90%;
+}
+
+.formlabel{
+  text-align: left;
+  font-family: 'Helvetica Now Display';
+}
+
+.inputeth{
+  border-radius: 10px;
+  font-family: HelveticaNowText;
+  background: rgb(248,248,248);
+  width: 100%;
+  padding-top: 6px;
+  padding-bottom: 6px;
+  padding-left: 12px;
+  padding-right: 12px;
+  border: 1px none rgb(47,47,47);
+}
+
+.submitbtn{
+  background-color: #ed7337;
+  border-radius: 10px;
+  font-family: 'Helvetica Now Display';
+}
+
+@font-face {
+	font-family: 'HelveticaNowText';
+	src: url(./fonts/HelveticaNowText-Black.woff2) format('woff2'),
+	url(./fonts/HelveticaNowText-Black.woff) format('woff');
+	font-weight: 900;
+	font-style: normal;
+	font-display: auto;
+}
+
+@font-face {
+	font-family: 'Helvetica Now Display';
+	src: url(./fonts/HelveticaNowDisplay-Bd.woff2) format('woff2'),
+	url(./fonts/HelveticaNowDisplay-Bd.woff) format('woff');
+	font-weight: bold;
+	font-style: normal;
+	font-display: auto;
+}
